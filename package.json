@@ -1,0 +1,31 @@
+{
+  "name": "repli",
+  "description": "Minimalist REPL client for node",
+  "version": "0.0.0",
+  "author": "Jean Ponchon <jean.ponchon@novadiscovery.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nopnop/repli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nopnop/repli/issues"
+  },
+  "homepage": "https://github.com/nopnop/repli/htmly",
+  "licenses": "MIT",
+  "main": "lib/repli",
+  "bin": {
+      "repli": "bin/repli.js"
+  },
+  "engines": {
+      "node": ">= 4"
+  },
+  "scripts": {
+  },
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "keywords": ["repl","node","client"]
+}
